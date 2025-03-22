@@ -1,5 +1,5 @@
 <?php
-namespace Ranium\SeedOnce\Test;
+namespace vahidalvandi\SeedOnce\Test;
 
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;

@@ -2,7 +2,7 @@
 
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
-use Ranium\SeedOnce\Traits\SeedOnce;
+use vahidalvandi\SeedOnce\Traits\SeedOnce;
 
 class RolesTableSeeder extends Seeder
 {

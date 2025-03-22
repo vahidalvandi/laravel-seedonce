@@ -1,6 +1,6 @@
 The MIT License (MIT)
 
-Copyright (c) Ranium Systems Pvt. Ltd. <info@ranium.in>
+Copyright (c) vahidalvandi Systems Pvt. Ltd. <info@vahidalvandi.in>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

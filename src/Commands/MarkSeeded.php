@@ -1,6 +1,6 @@
 <?php
 
-namespace Ranium\SeedOnce\Commands;
+namespace vahidalvandi\SeedOnce\Commands;
 
 use Illuminate\Database\Seeder;
 use Illuminate\Console\ConfirmableTrait;

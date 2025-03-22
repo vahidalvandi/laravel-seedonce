@@ -1,6 +1,6 @@
 <?php
 
-namespace Ranium\SeedOnce\Commands;
+namespace vahidalvandi\SeedOnce\Commands;
 
 use Illuminate\Support\Str;
 use Illuminate\Console\Command;
@@ -8,7 +8,7 @@ use Illuminate\Support\Collection;
 use Illuminate\Container\Container;
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Database\ConnectionResolverInterface as Resolver;
-use Ranium\SeedOnce\Repositories\SeederRepositoryInterface as Repository;
+use vahidalvandi\SeedOnce\Repositories\SeederRepositoryInterface as Repository;
 
 class BaseCommand extends Command
 {
@@ -36,7 +36,7 @@ class BaseCommand extends Command
     /**
      * Seeder repository
      *
-     * @var \Ranium\SeedOnce\Repositories\SeederRepositoryInterface
+     * @var \vahidalvandi\SeedOnce\Repositories\SeederRepositoryInterface
      */
     protected $repository;
 
@@ -46,7 +46,7 @@ class BaseCommand extends Command
      * @param  \Illuminate\Database\ConnectionResolverInterface  $resolver
      * @param  \Illuminate\Filesystem\Filesystem $files
      * @param  \Illuminate\Container\Container $container
-     * @param  \Ranium\SeedOnce\Repositories\SeederRepositoryInterface $repository
+     * @param  \vahidalvandi\SeedOnce\Repositories\SeederRepositoryInterface $repository
      * @return void
      */
     public function __construct(Resolver $resolver,

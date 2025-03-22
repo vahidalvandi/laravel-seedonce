@@ -1,5 +1,5 @@
 <?php
-namespace Ranium\SeedOnce\Test;
+namespace vahidalvandi\SeedOnce\Test;
 
 class MarkSeededTest extends TestCase
 {

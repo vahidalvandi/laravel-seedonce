@@ -1,10 +1,10 @@
 {
-    "name": "ranium/laravel-seedonce",
+    "name": "vahidalvandi/laravel-seedonce",
     "description": "Laravel package to run seeders only once",
     "type": "library",
     "require": {
         "php": "^7.2|^8.0",
-        "illuminate/database": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0"
+        "illuminate/database": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0|^12.0"
     },
     "require-dev": {
         "orchestra/testbench": "^3.8|^4.0|^5.0|^6.0|^7.0|^8.0|^9.0",
@@ -12,12 +12,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Ranium\\SeedOnce\\": "src"
+            "vahidalvandi\\SeedOnce\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Ranium\\SeedOnce\\Test\\": "tests"
+            "vahidalvandi\\SeedOnce\\Test\\": "tests"
         },
         "classmap": [
             "tests/database/seeds"
@@ -26,16 +26,16 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Ranium\\SeedOnce\\SeedOnceServiceProvider"
+                "vahidalvandi\\SeedOnce\\SeedOnceServiceProvider"
             ]
         }
     },
     "license": "MIT",
     "authors": [
         {
-            "name": "Abbas Ali",
-            "email": "abbas@ranium.in",
-            "homepage": "https://ranium.in",
+            "name": "vahid alvandi",
+            "email": "va6893@gmail.com",
+            "homepage": "https://webine.ir",
             "role": "Developer"
         }
     ],

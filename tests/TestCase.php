@@ -1,9 +1,9 @@
 <?php
-namespace Ranium\SeedOnce\Test;
+namespace vahidalvandi\SeedOnce\Test;
 
-use Ranium\SeedOnce\SeedOnceServiceProvider;
+use vahidalvandi\SeedOnce\SeedOnceServiceProvider;
 use Orchestra\Testbench\TestCase as BaseTestCase;
-use Ranium\SeedOnce\Repositories\SeederRepositoryInterface;
+use vahidalvandi\SeedOnce\Repositories\SeederRepositoryInterface;
 
 class TestCase extends BaseTestCase
 {

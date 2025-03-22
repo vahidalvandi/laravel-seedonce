@@ -1,15 +1,15 @@
 <p align="center">
-    <a href="https://github.com/ranium/laravel-seedonce/actions">
-        <img src="https://github.com/ranium/laravel-seedonce/workflows/tests/badge.svg" alt="Build Status">
+    <a href="https://github.com/vahidalvandi/laravel-seedonce/actions">
+        <img src="https://github.com/vahidalvandi/laravel-seedonce/workflows/tests/badge.svg" alt="Build Status">
     </a>
-    <a href="https://packagist.org/packages/ranium/laravel-seedonce">
-        <img src="https://img.shields.io/packagist/dt/ranium/laravel-seedonce" alt="Total Downloads">
+    <a href="https://packagist.org/packages/vahidalvandi/laravel-seedonce">
+        <img src="https://img.shields.io/packagist/dt/vahidalvandi/laravel-seedonce" alt="Total Downloads">
     </a>
-    <a href="https://packagist.org/packages/ranium/laravel-seedonce">
-        <img src="https://img.shields.io/packagist/v/ranium/laravel-seedonce" alt="Latest Stable Version">
+    <a href="https://packagist.org/packages/vahidalvandi/laravel-seedonce">
+        <img src="https://img.shields.io/packagist/v/vahidalvandi/laravel-seedonce" alt="Latest Stable Version">
     </a>
-    <a href="https://packagist.org/packages/ranium/laravel-seedonce">
-        <img src="https://img.shields.io/packagist/l/ranium/laravel-seedonce" alt="License">
+    <a href="https://packagist.org/packages/vahidalvandi/laravel-seedonce">
+        <img src="https://img.shields.io/packagist/l/vahidalvandi/laravel-seedonce" alt="License">
     </a>
 </p>
 
@@ -30,7 +30,7 @@ This package assumes that you use one seeder (ex.`DatabaseSeeder`) class as the 
 Use composer to install the package.
 
 ```
-composer require ranium/laravel-seedonce
+composer require vahidalvandi/laravel-seedonce
 ```
 
 Optionally, publish the package configuration file. Default config should work well in most of the cases.
@@ -57,14 +57,14 @@ Once you have published the configuration file, you can edit it to suit your nee
 
 ## Usage
 
-Use the `Ranium\SeedOnce\Traits\SeedOnce` trait in all your seeder classes including the main seeder (ex. `DatabaseSeeder`) class.
+Use the `vahidalvandi\SeedOnce\Traits\SeedOnce` trait in all your seeder classes including the main seeder (ex. `DatabaseSeeder`) class.
 
 ```
 <?php
 File: database/seeds/DatabaseSeeder.php
 
 use Illuminate\Database\Seeder;
-use Ranium\SeedOnce\Traits\SeedOnce;
+use vahidalvandi\SeedOnce\Traits\SeedOnce;
 
 class DatabaseSeeder extends Seeder
 {
@@ -87,7 +87,7 @@ class DatabaseSeeder extends Seeder
 File: database/seeds/UsersTableSeeder.php
 
 use Illuminate\Database\Seeder;
-use Ranium\SeedOnce\Traits\SeedOnce;
+use vahidalvandi\SeedOnce\Traits\SeedOnce;
 
 class UsersTableSeeder extends Seeder
 {
@@ -145,10 +145,6 @@ The package unit tests can be executed with the following command (from inside p
 ```
 composer test
 ```
-
-## Credits
-
-- [Abbas Ali](https://github.com/abbasali)
 
 
 ## License

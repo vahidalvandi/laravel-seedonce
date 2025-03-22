@@ -1,6 +1,6 @@
 <?php
 
-namespace Ranium\SeedOnce\Repositories;
+namespace vahidalvandi\SeedOnce\Repositories;
 
 interface SeederRepositoryInterface
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Ranium\SeedOnce\Traits;
+namespace vahidalvandi\SeedOnce\Traits;
 
-use Ranium\SeedOnce\Repositories\SeederRepositoryInterface;
+use vahidalvandi\SeedOnce\Repositories\SeederRepositoryInterface;
 
 trait SeedOnce {
 
@@ -82,7 +82,7 @@ trait SeedOnce {
     /**
      * Get the instance of seeder repository
      *
-     * @return \Ranium\SeedOnce\Repositories\SeederRepositoryInterface
+     * @return \vahidalvandi\SeedOnce\Repositories\SeederRepositoryInterface
      */
     protected function repository()
     {

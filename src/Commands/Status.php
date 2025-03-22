@@ -1,6 +1,6 @@
 <?php
 
-namespace Ranium\SeedOnce\Commands;
+namespace vahidalvandi\SeedOnce\Commands;
 
 use Illuminate\Support\Collection;
 use Symfony\Component\Console\Input\InputOption;

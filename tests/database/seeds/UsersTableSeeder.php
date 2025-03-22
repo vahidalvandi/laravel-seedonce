@@ -2,7 +2,7 @@
 
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
-use Ranium\SeedOnce\Traits\SeedOnce;
+use vahidalvandi\SeedOnce\Traits\SeedOnce;
 
 class UsersTableSeeder extends Seeder
 {
@@ -17,7 +17,7 @@ class UsersTableSeeder extends Seeder
     {
         DB::table('users')->insert([
             'name' => 'Test User',
-            'email' => 'test@ranium.in',
+            'email' => 'test@vahidalvandi.in',
             'password' => bcrypt('password')
         ]);
     }
